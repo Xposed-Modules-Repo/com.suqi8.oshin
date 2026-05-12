@@ -1,68 +1,157 @@
 <div align="center">
 
-# O神 - ColorOS辅助模块
+# O神 - ColorOS 辅助模块 
 
-<img src="https://github.com/suqi8/OPatch/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true" width="160" height="160" style="display: block; margin: 0 auto;" alt="icon">
+<img src="https://github.com/suqi8/OShin/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true" width="160" height="160" style="display: block; margin: 0 auto;" alt="icon">
 
-### 简体中文 | [English](./README_EN.md) | [文档](https://oshin.mikusignal.top/)
+**简体中文** | [English](./README_EN.md) | [在线文档](https://oshin.mikusignal.top/)
 
-![OShin](https://socialify.git.ci/suqi8/OPatch/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Auto)
+<div>
+  <a href="https://github.com/suqi8/OShin/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/suqi8/OShin?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://github.com/suqi8/OShin/releases">
+    <img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/suqi8/OShin/total?style=for-the-badge&logo=github&label=GitHub">
+  </a>
+  <a href="https://modules.lsposed.org/module/com.suqi8.oshin">
+    <img alt="Xposed Repo Downloads" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.suqi8.oshin/total?style=for-the-badge&label=Xposed%20Repo&color=orange">
+  </a>
+</div>
+
+<p></p>
+
+![OShin Socialify Banner](https://socialify.git.ci/suqi8/OShin/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Auto)
 
 </div>
 
-## 简介
+<div align="center">
+  <p>
+    <b>O神</b> (原名 OPatch) 是一个专为 ColorOS 系统深度定制的辅助模块，旨在增强和优化您的操作系统体验。
+  </p>
+</div>
 
-原名：OPatch  
-O神是一个专为ColorOS系统设计的辅助模块，旨在增强和定制用户的操作系统体验。该模块允许用户轻松地应用补丁，以实现特定的功能或优化。
+![Stone Badge](https://stone.professorlee.work/api/stone/suqi8/OShin)
 
-## 官方渠道
-
-我们为您提供了多个官方渠道，您可以通过这些渠道与我们联系或获取最新信息：
-
-### Telegram
-
-- **[O神 官方频道](https://t.me/OPatchA)**
-- **[O神 聊天频道](https://t.me/OPatchB)**
-- **[O神 自动构建](https://t.me/OPatchC)**
-
-### QQ
-
-- **[O神 QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N&authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO&noverify=0&group_code=740266099)**
-
-## 支持的版本
-目前仅支持基于 Android 15 的 ColorOS 15 / RealmeUI 6.0 / OxygenOS 15
-
-## 名称的由来
-~~仓库的名称"OPatch"来源于"OPPO OnePlus Patch"，主要应用场景是OPPO和OnePlus设备上的ColorOS系统。~~  
-经过各位的讨论与投票后，我们决定将名称改为 O神。
-
-## 贡献
-如果您想为我的模块加入您使用的语言，请前往 [Crowdin](https://zh.crowdin.com/project/opatch) 页面进行贡献。
-
-> [!CAUTION]
->
-> 该应用需要 Magisk、KernelSU 和 APatch 来获取 root 权限，并且需要 XPosed/LSPosed 框架。任何替代方法都将无效。
-
-## 许可
-本项目采用[AGPL许可证](LICENSE)，详情请参阅LICENSE文件。
-
-## 联系我们
-如果您有任何问题或需要帮助，请通过以下方式联系我们：
-- GitHub Issues
-- 电子邮件：[3383787570@qq.com]
+<table align="center" width="100%" style="border: none;">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚠️ 核心要求</h3>
+      <ul>
+        <li><b>Root 方案</b>: Magisk, KernelSU 或 APatch</li>
+        <li><b>Xposed 框架</b>: LSPosed</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ 支持版本 (Android 16)</h3>
+      <ul>
+        <li>ColorOS 16</li>
+        <li>RealmeUI 7</li>
+        <li>OxygenOS 16</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📥 下载</h3>
+      <ol>
+        <li><b>推荐</b>: 在 LSPosed 管理器中搜索 <b>O神</b></li>
+        <li><b>手动</b>: 从 <a href="https://github.com/suqi8/OShin/releases">GitHub Releases</a> 下载 APK</li>
+      </ol>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 激活</h3>
+      <ol>
+        <li>在 LSPosed 中启用模块</li>
+        <li>勾选作用域: <code>系统框架 (system,  android)等</code></li>
+        <li>重启设备</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 贡献者
+## 📜 开源说明 (Open Source Disclaimer)
 
-感谢以下贡献者
+本项目为开源项目，欢迎贡献。
 
-<a href="https://github.com/suqi8/OPatch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=suqi8/OPatch"  alt=""/>
-</a>
+但在您修改或分发此程序时， **不应更改** 以下内容：
 
+- 「关于」页中的 **感谢** 与 **作者信息**
+- **友盟 SDK** 相关代码
+- **中国地区启动验证** 模块
 
-![Alt](https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg "Repobeats analytics image")
+## 💬 社区与贡献 (Community & Contribution)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=suqi8/OPatch&type=Date)](https://star-history.com/#suqi8/OPatch&Date)
+<div align="center">
+  <p>
+    <a href="https://t.me/OPatchA">
+      <img alt="Telegram Channel" src="https://img.shields.io/badge/官方频道-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+    </a>
+    <a href="https://t.me/OPatchB">
+      <img alt="Telegram Chat" src="https://img.shields.io/badge/交流群组-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+    </a>
+    <a href="https://t.me/OPatchC">
+      <img alt="Telegram Build" src="https://img.shields.io/badge/自动构建-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+    </a>
+    <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N&authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO&noverify=0&group_code=740266099">
+      <img alt="QQ Group" src="https://img.shields.io/badge/QQ群-740266099-blue?style=for-the-badge&logo=tencent-qq&logoColor=white">
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/suqi8/OShin/issues">
+      <img alt="GitHub Issues" src="https://img.shields.io/badge/提交反馈-181717?style=for-the-badge&logo=github&logoColor=white">
+    </a>
+    <a href="https://github.com/suqi8/OShin/pulls">
+      <img alt="Pull Requests" src="https://img.shields.io/badge/贡献代码-181717?style=for-the-badge&logo=github&logoColor=white">
+    </a>
+    <a href="https://zh.crowdin.com/project/opatch">
+      <img alt="Crowdin" src="https://img.shields.io/badge/贡献翻译-2E374A?style=for-the-badge&logo=crowdin&logoColor=white">
+    </a>
+  </p>
+</div>
 
+## 📊 项目统计 (Project Stats)
+
+<div align="center">
+<table width="100%" style="border: none;">
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=suqi8&repo=OShin&show_owner=true&theme=catppuccin_mocha&border_color=302D41&icon_color=cba6f7&title_color=cba6f7&text_color=cad3f5">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=suqi8&repo=OShin&show_owner=true&theme=catppuccin_latte&border_color=e0e0e0&icon_color=8839ef&title_color=4c4f69&text_color=4c4f69">
+        <img alt="Repo Card" src="https://github-readme-stats.vercel.app/api/pin/?username=suqi8&repo=OShin&show_owner=true&theme=catppuccin_latte&border_color=e0e0e0&icon_color=8839ef&title_color=4c4f69&text_color=4c4f69">
+      </picture>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=suqi8&repo=OShin&layout=compact&theme=catppuccin_mocha&border_color=302D41&title_color=cba6f7&text_color=cad3f5">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=suqi8&repo=OShin&layout=compact&theme=catppuccin_latte&border_color=e0e0e0&title_color=4c4f69&text_color=4c4f69">
+        <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suqi8&repo=OShin&layout=compact&theme=catppuccin_latte&border_color=e0e0e0&title_color=4c4f69&text_color=4c4f69">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-trophy.vercel.app/?username=suqi8&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-trophy.vercel.app/?username=suqi8&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=7">
+        <img alt="Trophies" src="https://github-readme-trophy.vercel.app/?username=suqi8&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=7">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<img src="https://repobeats.axiom.co/api/embed/c5f8bea89b98ecd36d99f79a1c00dcb9eeebb3cc.svg" alt="Repobeats analytics image"/>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=suqi8/OShin&type=Date)](https://star-history.com/#suqi8/OShin&Date)
+
+</div>
+
+## ✨ 贡献者 (Contributors)
+
+<div align="center">
+  <a href="https://github.com/suqi8/OShin/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=suqi8/OShin" alt="Contributors"/>
+  </a>
+</div>
